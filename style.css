@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EAE3D4; /* Seu bege atual */
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #FDFBF7; /* Creme muito suave para o container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Sombra mais discreta */
+    max-width: 400px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.2em;
+    color: #5A4B40; /* Marrom escuro e quente para o título */
+    margin-bottom: 25px;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 12px;
+    width: calc(100% - 24px);
+    font-size: 1.3em;
+    border: 1px solid #D1C5B0; /* Bege-marrom claro para a borda do input */
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #5A4B40; /* Texto do input: marrom escuro (coerente com o título) */
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 1.2em;
+    background-color: #8B7D6B; /* Marrom-acinzentado para o botão */
+    color: #FFFFFF; 
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6F6358; /* Marrom-acinzentado mais escuro no hover */
+}
+
+#resultado, #luhnStatus, #overallStatus {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    /* SEM PROPRIEDADE 'color' AQUI - As classes .valid e .invalid definirão a cor */
+}
+
+.valid {
+    color: #6B8E23; /* Verde oliva natural para sucesso */
+}
+
+.invalid {
+    color: #CD5C5C; /* Vermelho terroso suave para erro */
+}
