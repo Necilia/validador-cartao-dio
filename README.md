@@ -26,15 +26,14 @@ Este é um projeto simples de validador de cartão de crédito desenvolvido em H
 
 * Um navegador web moderno (Chrome, Firefox, Edge, Safari, etc.).
 
-* **### ⚠️ Aviso Importante / Para Fins de Estudo ⚠️ ###**
+---
 
-**Atenção:** Este projeto foi desenvolvido exclusivamente para **fins educacionais e de estudo** 
+### ⚠️ Aviso Importante / Para Fins de Estudo ⚠️
 
-* **NÃO** utilize este validador para processar transações reais ou em ambientes de produção.
-* **NÃO** insira dados de cartões de crédito reais neste sistema para qualquer outra finalidade que não seja teste com números fictícios fornecidos para testes de Luhn ou padrões de bandeira.
-* A validação aqui realizada é simplificada e não substitui os sistemas de segurança e validação robustos utilizados por instituições financeiras.
+**Este projeto foi desenvolvido como parte do desafio proposto pela Digital Innovation One (DIO).** 🚀
 
+**Atenção:** Este projeto foi desenvolvido exclusivamente para **fins educacionais e de estudo** do Algoritmo de Luhn e identificação de bandeiras de cartões de crédito. 📚
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes (se você for adicionar uma licença no futuro).
+* **NÃO** utilize este validador para processar transações reais ou em ambientes de produção. 🚫
+* **NÃO** insira dados de cartões de crédito reais neste sistema para qualquer outra finalidade que não seja teste com números fictícios fornecidos para testes de Luhn ou padrões de bandeira. 🧪
+* A validação aqui realizada é simplificada e não substitui os sistemas de segurança e validação robustos utilizados por instituições financeiras. 🛡️
